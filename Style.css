@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+
+.it h3{
+    font-size: 180px;
+    font-weight: bolder;
+}
+
+.left img{
+    width: 220px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-one{
+    background: linear-gradient(90deg, darkmagenta, #861f41, darkmagenta);
+    color: white;
+    height: 80px;
+    cursor: pointer;
+}
+
+.navbar-two{
+    background-color: rgb(238, 238, 238);
+    height: 70px;
+}
+
+.first li{
+    list-style: none;
+}
+
+.first a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.second li{
+    list-style: none;
+}
+
+.second a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    align-items: flex-end;
+    margin-left: 30px;
+    color: black;
+    font-weight: 400;
+}
+
+.but a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    color: black;
+    align-items: flex-end;
+    font-weight: 400;
+}
+
+.but a{
+    color: #861f41;
+}
+
+.btn{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #861f41;
+    transition: all 0.2s ease;
+}
+.btn:active{
+    transform: scale(0.96);
+}
+
+.up h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(90deg, darkmagenta, #861f41, darkmagenta);
+}
+
+.cc img{
+    width: 450px;
+    margin-top: 80px;
+    margin-right: 80px;
+    justify-content: right;
+    align-items: right;
+    float: right;
+}
+.bntn{
+    width: 500px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bolder;
+    font-size: large;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    background: darkmagenta;
+    transition: all 0.2s ease;
+    margin-left: 380px;
+    margin-top: 40px;
+}
+
